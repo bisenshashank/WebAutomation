@@ -31,7 +31,7 @@ namespace WebAutomationApplication.Test
             RegisterPage.Goto();
 
             RegisterPage.WithEmailId(string.Empty)
-                .WinthPassword(string.Empty)
+                .WithPassword(string.Empty)
                 .WithConfirmPassword(string.Empty)
                 .Register();
 
@@ -45,7 +45,7 @@ namespace WebAutomationApplication.Test
             RegisterPage.Goto();
 
             RegisterPage.WithEmailId("shashank")
-                .WinthPassword("password")
+                .WithPassword("password")
                 .WithConfirmPassword("password")
                 .Register();
 
@@ -58,7 +58,7 @@ namespace WebAutomationApplication.Test
             RegisterPage.Goto();
 
             RegisterPage.WithEmailId("test@gmail.com")
-                .WinthPassword("password")
+                .WithPassword("password")
                 .WithConfirmPassword("password1")
                 .Register();
 
@@ -71,7 +71,7 @@ namespace WebAutomationApplication.Test
             RegisterPage.Goto();
 
             RegisterPage.WithEmailId("test@gmail.com")
-                .WinthPassword("key")
+                .WithPassword("key")
                 .WithConfirmPassword("key")
                 .Register();
 
@@ -84,7 +84,7 @@ namespace WebAutomationApplication.Test
             RegisterPage.Goto();
 
             RegisterPage.WithEmailId("test@gmail.com")
-                .WinthPassword("password")
+                .WithPassword("password")
                 .WithConfirmPassword("password")
                 .Register();
 
@@ -98,7 +98,7 @@ namespace WebAutomationApplication.Test
             RegisterPage.Goto();
 
             RegisterPage.WithEmailId(emailId)
-                .WinthPassword("Password@2015")
+                .WithPassword("Password@2015")
                 .WithConfirmPassword("Password@2015")
                 .Register();
 

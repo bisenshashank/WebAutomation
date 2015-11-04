@@ -19,7 +19,7 @@ namespace WebAutomationApplication.TestFrameWork.Pages.Command
             this.emailId = emailId;
         }
 
-        public RegisterCommand WinthPassword(string password)
+        public RegisterCommand WithPassword(string password)
         {
             this.password = password;
             return this;
